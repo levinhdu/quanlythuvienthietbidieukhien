@@ -1,0 +1,91 @@
+body {
+  font-size: 8px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 500px 500px 500px 500px;
+  grid-gap: 5px 20px;
+  background-color: #2196F3;
+  /* padding: 10px; */
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  /* font-size: 30px; */
+}
+
+table, td {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+.th-print-normal-color {
+  font-weight: bold;
+  background-color: #FEF2CB;
+}
+
+.th-print-normal-color-left {
+  font-weight: bold;
+  background-color: #FEF2CB;
+  text-align: left;
+}
+
+.th-print-normal-color-underline {
+  font-weight: bold;
+  background-color: #FEF2CB;
+  text-decoration: underline;
+  text-align: left;
+}
+
+.th-print-normal {
+  font-weight: bold;
+}
+
+.th-print-normal-left {
+  font-weight: bold;
+  text-align: left;
+}
+
+.th-print-normal-9px {
+  font-weight: bold;
+  font-size: 9px;
+}
+
+.th-print-normal-10px {
+  font-weight: bold;
+  font-size: 10px;
+}
+
+strong {
+  font-size: 12px;
+}
+
+@media print {
+  body{
+      width: 21cm;
+      height: 29.7cm;
+      margin: 1mm 5mm 0mm 5mm;
+      /* margin: 30mm 45mm 30mm 45mm; */
+      /* change the margins as you want them to be. */
+ }
+ .grid-container {
+    display: grid;
+    grid-template-columns: 10cm 10cm;
+    grid-template-rows: 7.5cm 7.5cm 7.5cm 7.5cm;
+    row-gap: 1px;
+    column-gap: 5px;
+    background-color: #2196F3;
+    /* padding: 10px; */
+    margin-bottom: 10px;
+    page-break-after: always;
+  }
+
+  .grid-container > div {
+    /* margin-bottom: -5px; */
+    border-bottom: 2px dotted gray;
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "extends": "umi",
+  "no-script-url": "off",
+  "eslint no-undef": "off",
+  "import/order": [
+    2,
+    {
+      "groups": [
+        "builtin",
+        "external",
+        "internal",
+        "parent",
+        "sibling",
+        "index",
+        "unknown",
+        "object",
+        "type"
+      ],
+      "newlines-between": "always",
+      "alphabetize": {
+        "order": "asc",
+        "caseInsensitive": true
+      },
+      "pathGroups": [
+        {
+          "position": "position",
+          "group": "external",
+          "pattern": "react*"
+        }
+      ]
+    }
+  ]
+}

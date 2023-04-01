@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grid</title>
+  <link rel="stylesheet" href="css/kanbanGrid.css" />
+  <script src="scripts/app.js" type="text/javascript" charset="utf-8" async defer></script>
+</head>
+
+<body>
+  <div class="print">
+    <div class="grid-container">
+      <div>
+        <table style="width: 100%;">
+          <caption><strong>THẺ KANBAN SẢN XUẤT</strong></caption>
+          <tr>
+            <td class="th-print-normal-color">1</td>
+            <td class="th-print-normal-color-underline">STT phôi NMT:</td>
+            <td class="th-print-normal">62</td>
+            <td class="th-print-normal-color">KH</td>
+            <td class="th-print-normal">Cơ khí</td>
+            <td class="th-print-normal-color">Ban hành</td>
+            <td>1/23/2021</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">2</td>
+            <td class="th-print-normal-color-underline">LSX Cơ Khí:</td>
+            <td colspan="4" class="th-print-normal-9px">K200 K11 </td>
+            <td class="th-print-normal-9px" style="background-color: #FEF2CB;">Lsx Thép</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">3</td>
+            <td class="th-print-normal-color-left">Mã chi tiết: </td>
+            <td colspan="2" class="th-print-normal-10px">62</td>
+            <td class="th-print-normal-color">Vật liệu</td>
+            <td class="th-print-normal-10px">SS400</td>
+            <td class="th-print-normal-10px">797/11</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">4</td>
+            <td class="th-print-normal-color-left">Số lượng:</td>
+            <td class="th-print-normal-9px">60</td>
+            <td colspan="2" class="th-print-normal-color">Ngày Thép HT</td>
+            <td>13/11/2020</td>
+            <td class="th-print-normal-9px">STT TRẠM</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">5</td>
+            <td class="th-print-normal-color-left">Tên chi tiết:</td>
+            <td colspan="4" class="th-print-normal-10px">Viền dưới mảng hông bên phụ</td>
+            <td class="th-print-normal-10px">A</td>
+          </tr>
+          <tr>
+            <td rowspan="2" class="th-print-normal-color">6</td>
+            <td rowspan="2" class="th-print-normal-color-left">Quy cách chi tiết:</td>
+            <td class="th-print-normal-color">Dài</td>
+            <td class="th-print-normal-color">Rộng</td>
+            <td class="th-print-normal-color">Dày</td>
+            <td class="th-print-normal-color">Dn</td>
+            <td class="th-print-normal-color">Dt</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-9px">3100</td>
+            <td class="th-print-normal-9px">162</td>
+            <td class="th-print-normal-9px">2</td>
+            <td class="th-print-normal-9px">0</td>
+            <td class="th-print-normal-9px">0</td>
+          </tr>
+          <tr style="height: 30px;">
+            <td class="th-print-normal-color">7</td>
+            <td class="th-print-normal-color-left">Ghi chú: </td>
+            <td colspan="5" class="th-print-normal">Cắt góc</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">STT</td>
+            <td class="th-print-normal-color-left">Công đoạn</td>
+            <td class="th-print-normal-color">KS XTT</td>
+            <td class="th-print-normal-color">KS XCN</td>
+            <td class="th-print-normal-color">KS XTH</td>
+            <td class="th-print-normal-color">KS XGCCK</td>
+            <td class="th-print-normal-color">KS VCNB</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">1</td>
+            <td class="th-print-normal-color-left">CT</td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">2</td>
+            <td class="th-print-normal-color-left">Đột</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">3</td>
+            <td class="th-print-normal-color-left">Chấn</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">4</td>
+            <td class="th-print-normal-color-left">Hàn. Tải</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">5</td>
+            <td></td>
+            <td class="th-print-normal-color">QA CHECK</td>
+            <td class="th-print-normal-color">QA CHECK</td>
+            <td class="th-print-normal-color">QA CHECK</td>
+            <td class="th-print-normal-color">QA FINAL</td>
+            <td rowspan="5">
+              <img src="images/qrimage.PNG" alt="QR Image" width="50px">
+            </td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">6</td>
+            <td></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">7</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">8</td>
+            <td></td>
+
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">9</td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+      <div>
+        <table style="width: 100%;">
+          <caption><strong>THẺ KANBAN SẢN XUẤT</strong></caption>
+          <tr>
+            <td class="th-print-normal-color">1</td>
+            <td class="th-print-normal-color-underline">STT phôi NMT:</td>
+            <td class="th-print-normal">62</td>
+            <td class="th-print-normal-color">KH</td>
+            <td class="th-print-normal">Cơ khí</td>
+            <td class="th-print-normal-color">Ban hành</td>
+            <td>1/23/2021</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">2</td>
+            <td class="th-print-normal-color-underline">LSX Cơ Khí:</td>
+            <td colspan="4" class="th-print-normal-9px">K200 K11 </td>
+            <td class="th-print-normal-9px" style="background-color: #FEF2CB;">Lsx Thép</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">3</td>
+            <td class="th-print-normal-color-left">Mã chi tiết: </td>
+            <td colspan="2" class="th-print-normal-10px">62</td>
+            <td class="th-print-normal-color">Vật liệu</td>
+            <td class="th-print-normal-10px">SS400</td>
+            <td class="th-print-normal-10px">797/11</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">4</td>
+            <td class="th-print-normal-color-left">Số lượng:</td>
+            <td class="th-print-normal-9px">60</td>
+            <td colspan="2" class="th-print-normal-color">Ngày Thép HT</td>
+            <td>13/11/2020</td>
+            <td class="th-print-normal-9px">STT TRẠM</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">5</td>
+            <td class="th-print-normal-color-left">Tên chi tiết:</td>
+            <td colspan="4" class="th-print-normal-10px">Viền dưới mảng hông bên phụ</td>
+            <td class="th-print-normal-10px">A</td>
+          </tr>
+          <tr>
+            <td rowspan="2" class="th-print-normal-color">6</td>
+            <td rowspan="2" class="th-print-normal-color-left">Quy cách chi tiết:</td>
+            <td class="th-print-normal-color">Dài</td>
+            <td class="th-print-normal-color">Rộng</td>
+            <td class="th-print-normal-color">Dày</td>
+            <td class="th-print-normal-color">Dn</td>
+            <td class="th-print-normal-color">Dt</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-9px">3100</td>
+            <td class="th-print-normal-9px">162</td>
+            <td class="th-print-normal-9px">2</td>
+            <td class="th-print-normal-9px">0</td>
+            <td class="th-print-normal-9px">0</td>
+          </tr>
+          <tr style="height: 30px;">
+            <td class="th-print-normal-color">7</td>
+            <td class="th-print-normal-color-left">Ghi chú: </td>
+            <td colspan="5" class="th-print-normal">Cắt góc</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">STT</td>
+            <td class="th-print-normal-color-left">Công đoạn</td>
+            <td class="th-print-normal-color">KS XTT</td>
+            <td class="th-print-normal-color">KS XCN</td>
+            <td class="th-print-normal-color">KS XTH</td>
+            <td class="th-print-normal-color">KS XGCCK</td>
+            <td class="th-print-normal-color">KS VCNB</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">1</td>
+            <td class="th-print-normal-color-left">CT</td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">2</td>
+            <td class="th-print-normal-color-left">Đột</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">3</td>
+            <td class="th-print-normal-color-left">Chấn</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">4</td>
+            <td class="th-print-normal-color-left">Hàn. Tải</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">5</td>
+            <td></td>
+            <td class="th-print-normal-color">QA CHECK</td>
+            <td class="th-print-normal-color">QA CHECK</td>
+            <td class="th-print-normal-color">QA CHECK</td>
+            <td class="th-print-normal-color">QA FINAL</td>
+            <td rowspan="5">
+              <img src="images/qrimage.PNG" alt="QR Image" width="50px">
+            </td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">6</td>
+            <td></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">7</td>
+            <td></td>
+
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">8</td>
+            <td></td>
+
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">9</td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+      <div>
+        <table style="width: 100%;">
+          <caption><strong>THẺ KANBAN SẢN XUẤT</strong></caption>
+          <tr>
+            <td class="th-print-normal-color">1</td>
+            <td class="th-print-normal-color-underline">STT phôi NMT:</td>
+            <td class="th-print-normal">62</td>
+            <td class="th-print-normal-color">KH</td>
+            <td class="th-print-normal">Cơ khí</td>
+            <td class="th-print-normal-color">Ban hành</td>
+            <td>1/23/2021</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">2</td>
+            <td class="th-print-normal-color-underline">LSX Cơ Khí:</td>
+            <td colspan="4" class="th-print-normal-9px">K200 K11 </td>
+            <td class="th-print-normal-9px" style="background-color: #FEF2CB;">Lsx Thép</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">3</td>
+            <td class="th-print-normal-color-left">Mã chi tiết: </td>
+            <td colspan="2" class="th-print-normal-10px">62</td>
+            <td class="th-print-normal-color">Vật liệu</td>
+            <td class="th-print-normal-10px">SS400</td>
+            <td class="th-print-normal-10px">797/11</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">4</td>
+            <td class="th-print-normal-color-left">Số lượng:</td>
+            <td class="th-print-normal-9px">60</td>
+            <td colspan="2" class="th-print-normal-color">Ngày Thép HT</td>
+            <td>13/11/2020</td>
+            <td class="th-print-normal-9px">STT TRẠM</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">5</td>
+            <td class="th-print-normal-color-left">Tên chi tiết:</td>
+            <td colspan="4" class="th-print-normal-10px">Viền dưới mảng hông bên phụ</td>
+            <td class="th-print-normal-10px">A</td>
+          </tr>
+          <tr>
+            <td rowspan="2" class="th-print-normal-color">6</td>
+            <td rowspan="2" class="th-print-normal-color-left">Quy cách chi tiết:</td>
+            <td class="th-print-normal-color">Dài</td>
+            <td class="th-print-normal-color">Rộng</td>
+            <td class="th-print-normal-color">Dày</td>
+            <td class="th-print-normal-color">Dn</td>
+            <td class="th-print-normal-color">Dt</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-9px">3100</td>
+            <td class="th-print-normal-9px">162</td>
+            <td class="th-print-normal-9px">2</td>
+            <td class="th-print-normal-9px">0</td>
+            <td class="th-print-normal-9px">0</td>
+          </tr>
+          <tr style="height: 30px;">
+            <td class="th-print-normal-color">7</td>
+            <td class="th-print-normal-color-left">Ghi chú: </td>
+            <td colspan="5" class="th-print-normal">Cắt góc</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">STT</td>
+            <td class="th-print-normal-color-left">Công đoạn</td>
+            <td class="th-print-normal-color">KS XTT</td>
+            <td class="th-print-normal-color">KS XCN</td>
+            <td class="th-print-normal-color">KS XTH</td>
+            <td class="th-print-normal-color">KS XGCCK</td>
+            <td class="th-print-normal-color">KS VCNB</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">1</td>
+            <td class="th-print-normal-color-left">CT</td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">2</td>
+            <td class="th-print-normal-color-left">Đột</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">3</td>
+            <td class="th-print-normal-color-left">Chấn</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">4</td>
+            <td class="th-print-normal-color-left">Hàn. Tải</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">5</td>
+            <td></td>
+            <td class="th-print-normal-color">QA CHECK</td>
+            <td class="th-print-normal-color">QA CHECK</td>
+            <td class="th-print-normal-color">QA CHECK</td>
+            <td class="th-print-normal-color">QA FINAL</td>
+            <td rowspan="5">
+              <img src="images/qrimage.PNG" alt="QR Image" width="50px">
+            </td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">6</td>
+            <td></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">7</td>
+            <td></td>
+
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">8</td>
+            <td></td>
+
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">9</td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+      <div>
+        <table style="width: 100%;">
+          <caption><strong>THẺ KANBAN SẢN XUẤT</strong></caption>
+          <tr>
+            <td class="th-print-normal-color">1</td>
+            <td class="th-print-normal-color-underline">STT phôi NMT:</td>
+            <td class="th-print-normal">62</td>
+            <td class="th-print-normal-color">KH</td>
+            <td class="th-print-normal">Cơ khí</td>
+            <td class="th-print-normal-color">Ban hành</td>
+            <td>1/23/2021</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">2</td>
+            <td class="th-print-normal-color-underline">LSX Cơ Khí:</td>
+            <td colspan="4" class="th-print-normal-9px">K200 K11 </td>
+            <td class="th-print-normal-9px" style="background-color: #FEF2CB;">Lsx Thép</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">3</td>
+            <td class="th-print-normal-color-left">Mã chi tiết: </td>
+            <td colspan="2" class="th-print-normal-10px">62</td>
+            <td class="th-print-normal-color">Vật liệu</td>
+            <td class="th-print-normal-10px">SS400</td>
+            <td class="th-print-normal-10px">797/11</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">4</td>
+            <td class="th-print-normal-color-left">Số lượng:</td>
+            <td class="th-print-normal-9px">60</td>
+            <td colspan="2" class="th-print-normal-color">Ngày Thép HT</td>
+            <td>13/11/2020</td>
+            <td class="th-print-normal-9px">STT TRẠM</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">5</td>
+            <td class="th-print-normal-color-left">Tên chi tiết:</td>
+            <td colspan="4" class="th-print-normal-10px">Viền dưới mảng hông bên phụ</td>
+            <td class="th-print-normal-10px">A</td>
+          </tr>
+          <tr>
+            <td rowspan="2" class="th-print-normal-color">6</td>
+            <td rowspan="2" class="th-print-normal-color-left">Quy cách chi tiết:</td>
+            <td class="th-print-normal-color">Dài</td>
+            <td class="th-print-normal-color">Rộng</td>
+            <td class="th-print-normal-color">Dày</td>
+            <td class="th-print-normal-color">Dn</td>
+            <td class="th-print-normal-color">Dt</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-9px">3100</td>
+            <td class="th-print-normal-9px">162</td>
+            <td class="th-print-normal-9px">2</td>
+            <td class="th-print-normal-9px">0</td>
+            <td class="th-print-normal-9px">0</td>
+          </tr>
+          <tr style="height: 30px;">
+            <td class="th-print-normal-color">7</td>
+            <td class="th-print-normal-color-left">Ghi chú: </td>
+            <td colspan="5" class="th-print-normal">Cắt góc</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">STT</td>
+            <td class="th-print-normal-color-left">Công đoạn</td>
+            <td class="th-print-normal-color">KS XTT</td>
+            <td class="th-print-normal-color">KS XCN</td>
+            <td class="th-print-normal-color">KS XTH</td>
+            <td class="th-print-normal-color">KS XGCCK</td>
+            <td class="th-print-normal-color">KS VCNB</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">1</td>
+            <td class="th-print-normal-color-left">CT</td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">2</td>
+            <td class="th-print-normal-color-left">Đột</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">3</td>
+            <td class="th-print-normal-color-left">Chấn</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">4</td>
+            <td class="th-print-normal-color-left">Hàn. Tải</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">5</td>
+            <td></td>
+            <td class="th-print-normal-color">QA CHECK</td>
+            <td class="th-print-normal-color">QA CHECK</td>
+            <td class="th-print-normal-color">QA CHECK</td>
+            <td class="th-print-normal-color">QA FINAL</td>
+            <td rowspan="5">
+              <img src="images/qrimage.PNG" alt="QR Image" width="50px">
+            </td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">6</td>
+            <td></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">7</td>
+            <td></td>
+
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">8</td>
+            <td></td>
+
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">9</td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+      <div>
+        <table style="width: 100%;">
+          <caption><strong>THẺ KANBAN SẢN XUẤT</strong></caption>
+          <tr>
+            <td class="th-print-normal-color">1</td>
+            <td class="th-print-normal-color-underline">STT phôi NMT:</td>
+            <td class="th-print-normal">62</td>
+            <td class="th-print-normal-color">KH</td>
+            <td class="th-print-normal">Cơ khí</td>
+            <td class="th-print-normal-color">Ban hành</td>
+            <td>1/23/2021</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">2</td>
+            <td class="th-print-normal-color-underline">LSX Cơ Khí:</td>
+            <td colspan="4" class="th-print-normal-9px">K200 K11 </td>
+            <td class="th-print-normal-9px" style="background-color: #FEF2CB;">Lsx Thép</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">3</td>
+            <td class="th-print-normal-color-left">Mã chi tiết: </td>
+            <td colspan="2" class="th-print-normal-10px">62</td>
+            <td class="th-print-normal-color">Vật liệu</td>
+            <td class="th-print-normal-10px">SS400</td>
+            <td class="th-print-normal-10px">797/11</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">4</td>
+            <td class="th-print-normal-color-left">Số lượng:</td>
+            <td class="th-print-normal-9px">60</td>
+            <td colspan="2" class="th-print-normal-color">Ngày Thép HT</td>
+            <td>13/11/2020</td>
+            <td class="th-print-normal-9px">STT TRẠM</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">5</td>
+            <td class="th-print-normal-color-left">Tên chi tiết:</td>
+            <td colspan="4" class="th-print-normal-10px">Viền dưới mảng hông bên phụ</td>
+            <td class="th-print-normal-10px">A</td>
+          </tr>
+          <tr>
+            <td rowspan="2" class="th-print-normal-color">6</td>
+            <td rowspan="2" class="th-print-normal-color-left">Quy cách chi tiết:</td>
+            <td class="th-print-normal-color">Dài</td>
+            <td class="th-print-normal-color">Rộng</td>
+            <td class="th-print-normal-color">Dày</td>
+            <td class="th-print-normal-color">Dn</td>
+            <td class="th-print-normal-color">Dt</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-9px">3100</td>
+            <td class="th-print-normal-9px">162</td>
+            <td class="th-print-normal-9px">2</td>
+            <td class="th-print-normal-9px">0</td>
+            <td class="th-print-normal-9px">0</td>
+          </tr>
+          <tr style="height: 30px;">
+            <td class="th-print-normal-color">7</td>
+            <td class="th-print-normal-color-left">Ghi chú: </td>
+            <td colspan="5" class="th-print-normal">Cắt góc</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">STT</td>
+            <td class="th-print-normal-color-left">Công đoạn</td>
+            <td class="th-print-normal-color">KS XTT</td>
+            <td class="th-print-normal-color">KS XCN</td>
+            <td class="th-print-normal-color">KS XTH</td>
+            <td class="th-print-normal-color">KS XGCCK</td>
+            <td class="th-print-normal-color">KS VCNB</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">1</td>
+            <td class="th-print-normal-color-left">CT</td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">2</td>
+            <td class="th-print-normal-color-left">Đột</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">3</td>
+            <td class="th-print-normal-color-left">Chấn</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">4</td>
+            <td class="th-print-normal-color-left">Hàn. Tải</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">5</td>
+            <td></td>
+            <td class="th-print-normal-color">QA CHECK</td>
+            <td class="th-print-normal-color">QA CHECK</td>
+            <td class="th-print-normal-color">QA CHECK</td>
+            <td class="th-print-normal-color">QA FINAL</td>
+            <td rowspan="5">
+              <img src="images/qrimage.PNG" alt="QR Image" width="50px">
+            </td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">6</td>
+            <td></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">7</td>
+            <td></td>
+
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">8</td>
+            <td></td>
+
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">9</td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+      <div>
+        <table style="width: 100%;">
+          <caption><strong>THẺ KANBAN SẢN XUẤT</strong></caption>
+          <tr>
+            <td class="th-print-normal-color">1</td>
+            <td class="th-print-normal-color-underline">STT phôi NMT:</td>
+            <td class="th-print-normal">62</td>
+            <td class="th-print-normal-color">KH</td>
+            <td class="th-print-normal">Cơ khí</td>
+            <td class="th-print-normal-color">Ban hành</td>
+            <td>1/23/2021</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">2</td>
+            <td class="th-print-normal-color-underline">LSX Cơ Khí:</td>
+            <td colspan="4" class="th-print-normal-9px">K200 K11 </td>
+            <td class="th-print-normal-9px" style="background-color: #FEF2CB;">Lsx Thép</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">3</td>
+            <td class="th-print-normal-color-left">Mã chi tiết: </td>
+            <td colspan="2" class="th-print-normal-10px">62</td>
+            <td class="th-print-normal-color">Vật liệu</td>
+            <td class="th-print-normal-10px">SS400</td>
+            <td class="th-print-normal-10px">797/11</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">4</td>
+            <td class="th-print-normal-color-left">Số lượng:</td>
+            <td class="th-print-normal-9px">60</td>
+            <td colspan="2" class="th-print-normal-color">Ngày Thép HT</td>
+            <td>13/11/2020</td>
+            <td class="th-print-normal-9px">STT TRẠM</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">5</td>
+            <td class="th-print-normal-color-left">Tên chi tiết:</td>
+            <td colspan="4" class="th-print-normal-10px">Viền dưới mảng hông bên phụ</td>
+            <td class="th-print-normal-10px">A</td>
+          </tr>
+          <tr>
+            <td rowspan="2" class="th-print-normal-color">6</td>
+            <td rowspan="2" class="th-print-normal-color-left">Quy cách chi tiết:</td>
+            <td class="th-print-normal-color">Dài</td>
+            <td class="th-print-normal-color">Rộng</td>
+            <td class="th-print-normal-color">Dày</td>
+            <td class="th-print-normal-color">Dn</td>
+            <td class="th-print-normal-color">Dt</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-9px">3100</td>
+            <td class="th-print-normal-9px">162</td>
+            <td class="th-print-normal-9px">2</td>
+            <td class="th-print-normal-9px">0</td>
+            <td class="th-print-normal-9px">0</td>
+          </tr>
+          <tr style="height: 30px;">
+            <td class="th-print-normal-color">7</td>
+            <td class="th-print-normal-color-left">Ghi chú: </td>
+            <td colspan="5" class="th-print-normal">Cắt góc</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">STT</td>
+            <td class="th-print-normal-color-left">Công đoạn</td>
+            <td class="th-print-normal-color">KS XTT</td>
+            <td class="th-print-normal-color">KS XCN</td>
+            <td class="th-print-normal-color">KS XTH</td>
+            <td class="th-print-normal-color">KS XGCCK</td>
+            <td class="th-print-normal-color">KS VCNB</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">1</td>
+            <td class="th-print-normal-color-left">CT</td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">2</td>
+            <td class="th-print-normal-color-left">Đột</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">3</td>
+            <td class="th-print-normal-color-left">Chấn</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">4</td>
+            <td class="th-print-normal-color-left">Hàn. Tải</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">5</td>
+            <td></td>
+            <td class="th-print-normal-color">QA CHECK</td>
+            <td class="th-print-normal-color">QA CHECK</td>
+            <td class="th-print-normal-color">QA CHECK</td>
+            <td class="th-print-normal-color">QA FINAL</td>
+            <td rowspan="5">
+              <img src="images/qrimage.PNG" alt="QR Image" width="50px">
+            </td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">6</td>
+            <td></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">7</td>
+            <td></td>
+
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">8</td>
+            <td></td>
+
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">9</td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+      <div>
+        <table style="width: 100%;">
+          <caption><strong>THẺ KANBAN SẢN XUẤT</strong></caption>
+          <tr>
+            <td class="th-print-normal-color">1</td>
+            <td class="th-print-normal-color-underline">STT phôi NMT:</td>
+            <td class="th-print-normal">62</td>
+            <td class="th-print-normal-color">KH</td>
+            <td class="th-print-normal">Cơ khí</td>
+            <td class="th-print-normal-color">Ban hành</td>
+            <td>1/23/2021</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">2</td>
+            <td class="th-print-normal-color-underline">LSX Cơ Khí:</td>
+            <td colspan="4" class="th-print-normal-9px">K200 K11 </td>
+            <td class="th-print-normal-9px" style="background-color: #FEF2CB;">Lsx Thép</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">3</td>
+            <td class="th-print-normal-color-left">Mã chi tiết: </td>
+            <td colspan="2" class="th-print-normal-10px">62</td>
+            <td class="th-print-normal-color">Vật liệu</td>
+            <td class="th-print-normal-10px">SS400</td>
+            <td class="th-print-normal-10px">797/11</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">4</td>
+            <td class="th-print-normal-color-left">Số lượng:</td>
+            <td class="th-print-normal-9px">60</td>
+            <td colspan="2" class="th-print-normal-color">Ngày Thép HT</td>
+            <td>13/11/2020</td>
+            <td class="th-print-normal-9px">STT TRẠM</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">5</td>
+            <td class="th-print-normal-color-left">Tên chi tiết:</td>
+            <td colspan="4" class="th-print-normal-10px">Viền dưới mảng hông bên phụ</td>
+            <td class="th-print-normal-10px">A</td>
+          </tr>
+          <tr>
+            <td rowspan="2" class="th-print-normal-color">6</td>
+            <td rowspan="2" class="th-print-normal-color-left">Quy cách chi tiết:</td>
+            <td class="th-print-normal-color">Dài</td>
+            <td class="th-print-normal-color">Rộng</td>
+            <td class="th-print-normal-color">Dày</td>
+            <td class="th-print-normal-color">Dn</td>
+            <td class="th-print-normal-color">Dt</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-9px">3100</td>
+            <td class="th-print-normal-9px">162</td>
+            <td class="th-print-normal-9px">2</td>
+            <td class="th-print-normal-9px">0</td>
+            <td class="th-print-normal-9px">0</td>
+          </tr>
+          <tr style="height: 30px;">
+            <td class="th-print-normal-color">7</td>
+            <td class="th-print-normal-color-left">Ghi chú: </td>
+            <td colspan="5" class="th-print-normal">Cắt góc</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">STT</td>
+            <td class="th-print-normal-color-left">Công đoạn</td>
+            <td class="th-print-normal-color">KS XTT</td>
+            <td class="th-print-normal-color">KS XCN</td>
+            <td class="th-print-normal-color">KS XTH</td>
+            <td class="th-print-normal-color">KS XGCCK</td>
+            <td class="th-print-normal-color">KS VCNB</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">1</td>
+            <td class="th-print-normal-color-left">CT</td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">2</td>
+            <td class="th-print-normal-color-left">Đột</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">3</td>
+            <td class="th-print-normal-color-left">Chấn</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">4</td>
+            <td class="th-print-normal-color-left">Hàn. Tải</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">5</td>
+            <td></td>
+            <td class="th-print-normal-color">QA CHECK</td>
+            <td class="th-print-normal-color">QA CHECK</td>
+            <td class="th-print-normal-color">QA CHECK</td>
+            <td class="th-print-normal-color">QA FINAL</td>
+            <td rowspan="5">
+              <img src="images/qrimage.PNG" alt="QR Image" width="50px">
+            </td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">6</td>
+            <td></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">7</td>
+            <td></td>
+
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">8</td>
+            <td></td>
+
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">9</td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+      <div>
+        <table style="width: 100%;">
+          <caption><strong>THẺ KANBAN SẢN XUẤT</strong></caption>
+          <tr>
+            <td class="th-print-normal-color">1</td>
+            <td class="th-print-normal-color-underline">STT phôi NMT:</td>
+            <td class="th-print-normal">62</td>
+            <td class="th-print-normal-color">KH</td>
+            <td class="th-print-normal">Cơ khí</td>
+            <td class="th-print-normal-color">Ban hành</td>
+            <td>1/23/2021</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">2</td>
+            <td class="th-print-normal-color-underline">LSX Cơ Khí:</td>
+            <td colspan="4" class="th-print-normal-9px">K200 K11 </td>
+            <td class="th-print-normal-9px" style="background-color: #FEF2CB;">Lsx Thép</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">3</td>
+            <td class="th-print-normal-color-left">Mã chi tiết: </td>
+            <td colspan="2" class="th-print-normal-10px">62</td>
+            <td class="th-print-normal-color">Vật liệu</td>
+            <td class="th-print-normal-10px">SS400</td>
+            <td class="th-print-normal-10px">797/11</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">4</td>
+            <td class="th-print-normal-color-left">Số lượng:</td>
+            <td class="th-print-normal-9px">60</td>
+            <td colspan="2" class="th-print-normal-color">Ngày Thép HT</td>
+            <td>13/11/2020</td>
+            <td class="th-print-normal-9px">STT TRẠM</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">5</td>
+            <td class="th-print-normal-color-left">Tên chi tiết:</td>
+            <td colspan="4" class="th-print-normal-10px">Viền dưới mảng hông bên phụ</td>
+            <td class="th-print-normal-10px">A</td>
+          </tr>
+          <tr>
+            <td rowspan="2" class="th-print-normal-color">6</td>
+            <td rowspan="2" class="th-print-normal-color-left">Quy cách chi tiết:</td>
+            <td class="th-print-normal-color">Dài</td>
+            <td class="th-print-normal-color">Rộng</td>
+            <td class="th-print-normal-color">Dày</td>
+            <td class="th-print-normal-color">Dn</td>
+            <td class="th-print-normal-color">Dt</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-9px">3100</td>
+            <td class="th-print-normal-9px">162</td>
+            <td class="th-print-normal-9px">2</td>
+            <td class="th-print-normal-9px">0</td>
+            <td class="th-print-normal-9px">0</td>
+          </tr>
+          <tr style="height: 30px;">
+            <td class="th-print-normal-color">7</td>
+            <td class="th-print-normal-color-left">Ghi chú: </td>
+            <td colspan="5" class="th-print-normal">Cắt góc</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">STT</td>
+            <td class="th-print-normal-color-left">Công đoạn</td>
+            <td class="th-print-normal-color">KS XTT</td>
+            <td class="th-print-normal-color">KS XCN</td>
+            <td class="th-print-normal-color">KS XTH</td>
+            <td class="th-print-normal-color">KS XGCCK</td>
+            <td class="th-print-normal-color">KS VCNB</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">1</td>
+            <td class="th-print-normal-color-left">CT</td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">2</td>
+            <td class="th-print-normal-color-left">Đột</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">3</td>
+            <td class="th-print-normal-color-left">Chấn</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">4</td>
+            <td class="th-print-normal-color-left">Hàn. Tải</td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">5</td>
+            <td></td>
+            <td class="th-print-normal-color">QA CHECK</td>
+            <td class="th-print-normal-color">QA CHECK</td>
+            <td class="th-print-normal-color">QA CHECK</td>
+            <td class="th-print-normal-color">QA FINAL</td>
+            <td rowspan="5">
+              <img src="images/qrimage.PNG" alt="QR Image" width="50px">
+            </td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">6</td>
+            <td></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">7</td>
+            <td></td>
+
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">8</td>
+            <td></td>
+
+          </tr>
+          <tr>
+            <td class="th-print-normal-color">9</td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
